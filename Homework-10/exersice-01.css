@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+.header  {
+    background-color:#336666;
+    height: 80px;
+    width: 100%;
+}
+.text {
+	color:black;
+    width: 150px;
+    height: 60px;
+    font-size: 50%;
+}
+.content {
+	background-color:#008000;
+    height: 120px;
+    width:80% auto;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top: 10px;
+}
+.left-section {
+	float:left;
+	display:inline-block;
+	background-color:#800080;
+	height: 20px;
+	margin-left: 10%;
+	margin-top:10px;
+	width: 38%;
+}
+.right-section {
+	float:right;
+	display:inline-block;
+	background-color:#0000ff;
+	height: 20px;
+	margin-right: 10%;
+	margin-top:10px;
+	width: 38%;
+}

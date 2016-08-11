@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+#roulette{
+  background-image: 
+  			url(http://thumb7.shutterstock.com/display_pic_with_logo/2502682/260702765/stock-vector-casino-roulette-wheel-vector-icon-isolated-gamble-260702765.jpg);
+  width:450px;
+  height:450px;
+  margin:0;
+}
+.circle {
+  border-radius:50%;
+  height: 20px;
+  width: 20px;
+  margin:0;
+  background: radial-gradient(circle at 65px 20px, #FFFFFF, #000000);
+}
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+.circleContainer{
+    height: 300px;
+    top: 85px;
+    position: fixed;
+    left: 220px;  
+    -webkit-animation-name: spinnerRotate;
+    -webkit-animation-duration: 3.5s;
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-timing-function: linear;
+}

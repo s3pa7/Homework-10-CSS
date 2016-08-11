@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+.header {
+	background-color:#497E7E;
+	height: 100px;
+	width:99.9%;
+	margin-bottom: 10px;
+}
+.menu {
+	float:left;
+	background-color: #D700AC;
+	display:inline-block;
+	height: 460px;
+	width: 19%;
+	margin-bottom: 10px;
+	margin-right: 1%;
+}
+.content {
+	float:right;
+	background-color: #49FF00;
+	display:inline-block;
+	height: 460px;
+	width: 79%;
+	margin-bottom: 10px;
+}
+.footer {
+	background-color:#0049FF;
+	display: inline-block;
+	height: 100px;
+	width:99.9%;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+.header {
+	background-color: #9B6600;
+	width: 99.9;
+	height: 180px;
+	position:relative;
+}
+p {
+	color: #FFFFFF;
+	position: absolute;
+	font-size: 30px;
+	margin-left: 15px;
+    margin-top: 7px;
+    font-family: Arial, Verdana, sans-serif;
+}
+.text-header {
+	color: #FFFFFF;
+	position: absolute;
+	font-size: 17px;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.left-side {
+	float:left;
+	background-color:#58201F;
+	height:460px;
+	width:15%;
+	position:relative;
+	display:inline-block;
+}
+.border-in-left-side {
+	background-color:#64332F;
+	height:290px;
+	width:215px;
+	position: absolute;
+}
+.text-left-side {
+	color: #FFFFFF;
+	position: absolute;
+	font-size: 29px;
+    font-family: Arial, Verdana, sans-serif;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+ul li {
+	list-style-type:disc;
+	color: #FFFFFF;
+	margin-top: 30px;
+    margin-left: 20px;
+
+}
+.ul-change {
+	list-style-type:disc;
+	color: #FFFFFF;
+	margin-top: 75px;
+    margin-left: 4px;
+    position: absolute;
+}
+.center-side {
+	background-color:#FFFFCD;
+	height: 460px;
+    width: 70%;
+	position: relative;
+	display:inline-block;
+}
+.right-side {
+	float:right;
+	background-color:#87874B;
+	height: 460px;
+    width: 15%;
+	position: relative;
+	display:inline-block;
+}
+.text-contents {
+	display:inline-block;
+	position: absolute;
+	font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+	
+}
+.notes {
+	display:inline-block;
+	font-size: 25px;
+    font-weight: bold;
+}
+.center-text {
+	position: absolute;
+	display:inline-block;
+	position: absolute;
+	margin-left: 25px;
+	margin-top: 60px;
+	font-size: 90%;
+}
+.right-side-border {
+	background-color:#989665;
+	height:100px;
+	width:99.9%;
+	position: absolute;
+}
+.right-side-text {
+	position: absolute;
+	font-weight: bold;
+	display:inline-block;
+	font-size: 184%;
+    margin-left: 43px;
+    text-align: center;
+}
+.side {
+	margin-left: 81px;
+}
+.footer {
+	display:inline-block;
+	width:99.9%;
+	background-color: #646464;
+	height: 40px;
+	position:relative;
+}
+.footer-text {
+	position:relative;
+	text-align:center;
+	display:inline-block;
+    margin-left: 450px;
+    padding-top: 20px;
+	
+}
